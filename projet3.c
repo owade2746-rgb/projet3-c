@@ -11,3 +11,17 @@ do{
             puts("Veuillez saisir un entier");
             scanf("%d",&x);
         }while(x>0);
+    if(x%2==0){
+            somme=somme+x;
+            cpt++;
+    }else{
+           cpt1++;
+           somme1=somme1+x;
+    }
+}
+    moy=somme/cpt;
+    moy=somme1/cpt1;
+    printf("La moyenne des nombres pairs est : %f",moy);
+    printf("La moyenne des nombres pairs est : %f",moy);
+return 0;
+    }
